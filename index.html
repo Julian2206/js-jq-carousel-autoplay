@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-center">Carousel</h1>
+            <div class="carousel-wrapper">
+              <div class="carousel-image">
+                <!-- put active in the class and display none as default -->
+                <img class="" id="slide" src="" alt="" />
+              </div>
+              <div class="carousel-navigation p-3">
+                <button class="btn btn-primary" id="previous-button">
+                  Previous
+                </button>
+                <input
+                  type="button"
+                  class="btn btn-primary"
+                  value="next"
+                  id="next-button"
+                />
+                <!-- <button class="btn btn-primary" id="next-button">Next</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <!-- <script src="main.js"></script> -->
+  <script src="script.js"></script>
+</html>
